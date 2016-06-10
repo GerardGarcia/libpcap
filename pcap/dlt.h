@@ -494,7 +494,8 @@
  * Instead, ask "tcpdump-workers@lists.tcpdump.org" for a new DLT_ value,
  * as per the comment above, and use the type you're given.
  */
-#define DLT_USER0		147
+#define DLT_VSOCK	147		
+// #define DLT_USER0		147
 #define DLT_USER1		148
 #define DLT_USER2		149
 #define DLT_USER3		150
