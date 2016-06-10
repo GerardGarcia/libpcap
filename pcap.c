@@ -1267,6 +1267,7 @@ static struct dlt_choice dlt_choices[] = {
 	DLT_CHOICE(DLT_PROFIBUS_DL, "PROFIBUS data link layer"),
 	DLT_CHOICE(DLT_PKTAP, "Apple DLT_PKTAP"),
 	DLT_CHOICE(DLT_EPON, "Ethernet with 802.3 Clause 65 EPON preamble"),
+	DLT_CHOICE(DLT_USER0, "Linux vsock"),
 	DLT_CHOICE_SENTINEL
 };
 
