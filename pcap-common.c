@@ -285,8 +285,7 @@
  * new DLT_ and LINKTYPE_ value, as per the comment in pcap/bpf.h, and use
  * the type you're given.
  */
-#define LINKTYPE_VSOCK		147
-// #define LINKTYPE_USER0		147
+#define LINKTYPE_USER0		147
 #define LINKTYPE_USER1		148
 #define LINKTYPE_USER2		149
 #define LINKTYPE_USER3		150
